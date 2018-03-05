@@ -14,6 +14,7 @@
 		0BF5B9A01F403370003C2503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF5B99E1F403370003C2503 /* LaunchScreen.storyboard */; };
 		8C00DD3F1FB6135000A3D0F0 /* BeeBackAR.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C00DD3E1FB6135000A3D0F0 /* BeeBackAR.png */; };
 		8C171F811FCE650E00323379 /* LogoRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C171F801FCE650E00323379 /* LogoRed.png */; };
+		8C370D051FEF127B00531CDD /* review.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C370D041FEF127B00531CDD /* review.png */; };
 		8CF3A4DE1FB2C265009A4ACE /* 3dsecretmenubeeback.dae in Resources */ = {isa = PBXBuildFile; fileRef = 8CF3A4DD1FB2C264009A4ACE /* 3dsecretmenubeeback.dae */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		0BF5B9A11F403370003C2503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C00DD3E1FB6135000A3D0F0 /* BeeBackAR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeeBackAR.png; sourceTree = "<group>"; };
 		8C171F801FCE650E00323379 /* LogoRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoRed.png; sourceTree = "<group>"; };
+		8C370D041FEF127B00531CDD /* review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = review.png; sourceTree = "<group>"; };
 		8CF3A4DD1FB2C264009A4ACE /* 3dsecretmenubeeback.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = 3dsecretmenubeeback.dae; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 		0BF5B9941F403370003C2503 /* BeeBackAR */ = {
 			isa = PBXGroup;
 			children = (
+				8C188BAB1FF41A4400E5A918 /* Snake */,
 				8C171F801FCE650E00323379 /* LogoRed.png */,
 				0BF5B9951F403370003C2503 /* AppDelegate.swift */,
 				0BF5B9971F403370003C2503 /* ViewController.swift */,
@@ -69,8 +72,16 @@
 				8CF3A4DD1FB2C264009A4ACE /* 3dsecretmenubeeback.dae */,
 				0BF5B99E1F403370003C2503 /* LaunchScreen.storyboard */,
 				0BF5B9A11F403370003C2503 /* Info.plist */,
+				8C370D041FEF127B00531CDD /* review.png */,
 			);
 			path = BeeBackAR;
+			sourceTree = "<group>";
+		};
+		8C188BAB1FF41A4400E5A918 /* Snake */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Snake;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 				8C171F811FCE650E00323379 /* LogoRed.png in Resources */,
 				0BF5B9A01F403370003C2503 /* LaunchScreen.storyboard in Resources */,
 				0BF5B99D1F403370003C2503 /* Assets.xcassets in Resources */,
+				8C370D051FEF127B00531CDD /* review.png in Resources */,
 				8CF3A4DE1FB2C265009A4ACE /* 3dsecretmenubeeback.dae in Resources */,
 				0BF5B99B1F403370003C2503 /* Main.storyboard in Resources */,
 				8C00DD3F1FB6135000A3D0F0 /* BeeBackAR.png in Resources */,

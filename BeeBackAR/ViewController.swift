@@ -36,7 +36,21 @@ class ViewController: UIViewController {
     
 
     @IBAction func addPinkBox(_ sender: Any) {
-        addPinkNode()
+        //addPinkNode()
+        addTile()
+    }
+    
+    func addTile(){
+        
+        let node = SCNNode(geometry: SCNPlane(width: 1.0, height: 1.0))
+        //node.geometry = scnShape
+        node.position = SCNVector3(0,0,-0.5)
+        
+        node.geometry?.firstMaterial?.diffuse.contents = UIImage(named: "review.png")!
+        //node.geometry?.firstMaterial?.diffuse.contents = UIColor.orange
+        self.SceneView.tag = 0
+        self.SceneView.scene.rootNode.addChildNode(node)
+        
     }
     
     func addNode() {
